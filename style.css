@@ -1,0 +1,82 @@
+.navbar {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
+    height: 80px;
+    padding: 5px;
+}
+
+.btn-primary {
+    background-color: #e91732 !important;
+    color: #fff !important;
+    border-color: #e91732 !important;
+}
+
+.btn-primary:hover {
+    background-color: #e91732;
+}
+
+.btn-primary:active {
+    opacity: 0.5;
+}
+
+
+.text-bg-primary {
+    background-color: #f69faa !important;
+    color: #000 !important;
+}
+
+.card {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
+}
+
+.dish-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dish-card>div>div>div>div>.card-title {
+    font-size: 14px;
+}
+
+.dish-card>div>div>div>div>p {
+    font-size: 12px;
+}
+
+.dish-card>div>div>div>a {
+    font-size: 12px;
+    height: fit-content;
+}
+
+.qty-btns {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: #e91732;
+    font-size: 12px;
+}
+
+.social-icons{
+    font-size: 28px;
+    color: #e91732;
+}
+
+.nav-link:hover{
+    background-color: #e91732;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.admin-links{
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.restaurants{
+    padding: 40px;
+}
+
+.addDishBtn{
+    width: fit-content;
+}
